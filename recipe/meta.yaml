@@ -1,7 +1,7 @@
 {% set name = "marbles-core" %}
 {% set pipname = "marbles.core" %}
-{% set version = "0.9.5" %}
-{% set sha256 = "8ad74933fd081e24f8ef959b43a210e16814e31ce11015b65ac72f99c3be5ff6" %}
+{% set version = "0.10.0" %}
+{% set sha256 = "41c059f9cc8208d910dcfcaa7c8c1cb11a15c643f4f0a6285c269c5a2283c9c6" %}
 
 package:
   name: {{ name|lower }}
