@@ -1,7 +1,7 @@
 {% set name = "marbles-core" %}
 {% set pipname = "marbles.core" %}
-{% set version = "0.10.0" %}
-{% set sha256 = "41c059f9cc8208d910dcfcaa7c8c1cb11a15c643f4f0a6285c269c5a2283c9c6" %}
+{% set version = "0.11.0" %}
+{% set sha256 = "d8c2a1f2e4ef8d2755b5ebdceb33c84c3e9604a27f2fb084392897c1f62cff0f" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:

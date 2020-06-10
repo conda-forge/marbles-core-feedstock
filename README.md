@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About marbles-core
 ==================
 
@@ -21,8 +17,15 @@ debug failing tests faster.
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/marbles-core-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/marbles-core-feedstock)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4478&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/marbles-core-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
